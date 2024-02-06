@@ -1,4 +1,4 @@
-project "ROFL"
+project "optick"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++17"
