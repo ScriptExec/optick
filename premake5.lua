@@ -1,5 +1,5 @@
 project "optick"
-	kind "StaticLib"
+	kind "SharedLib"
 	language "C++"
 	cppdialect "C++17"
 	conformancemode "true"
@@ -12,6 +12,11 @@ project "optick"
 	{
 		"src/**.h",
 		"src/**.cpp",
+	}
+
+	defines
+	{
+		"OPTICK_EXPORTS"
 	}
 
 	filter "configurations:Debug"
