@@ -16,7 +16,9 @@ project "optick"
 
 	defines
 	{
-		"OPTICK_EXPORTS"
+		"OPTICK_EXPORTS",
+		"OPTICK_ENABLE_GPU_D3D12=0",
+		"OPTICK_ENABLE_GPU_VULKAN=0"
 	}
 
 	filter "configurations:Debug"
