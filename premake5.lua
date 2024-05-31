@@ -5,8 +5,8 @@ project "optick"
 	conformancemode "true"
 	staticruntime "off"
 
-	targetdir ("%{wks.location}/.build/" .. OutputDir .. "/%{prj.name}")
-	objdir ("%{wks.location}/.build/temp/" .. OutputDir .. "/%{prj.name}")
+	targetdir (ProjectTargetDir)
+	objdir (ProjectObjDir)
 
 	files
 	{
